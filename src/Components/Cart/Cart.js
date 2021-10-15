@@ -23,6 +23,7 @@ const Cart = (props) => {
             <p>Tax:{tax}</p>
             <p>Shipping:{shipping}</p>
             <p>FinalTotal:{finalTotal}</p>
+            {props.children}
         </div>
     );
 };
